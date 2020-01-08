@@ -1,0 +1,26 @@
+{
+    "name": "avap/nora-framework",
+    "description": "PHP Framework",
+    "type": "framework",
+    "license": "MIT",
+    "require": {
+        "avap/nora-di": "dev-master",
+        "avap/nora-logging": "dev-master",
+        "avap/nora-cache": "dev-master",
+        "avap/nora-http": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "authors": [
+        {
+            "name": "Hajime MATSUMOTO",
+            "email": "hajime.matsumoto@avap.co.jp"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nora\\": "lib"
+        }
+    }
+}
